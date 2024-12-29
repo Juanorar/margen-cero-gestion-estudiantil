@@ -1,0 +1,16 @@
+{
+    "name": "asus/margen-cero-gestion-cursos",
+    "autoload": {
+        "psr-4": {
+        }
+    },
+    "authors": [
+        {
+            "name": "Juan Ortiz",
+            "email": "juanor.arr@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

@@ -1,0 +1,3 @@
+/web-services/vendor/
+/web-services/.env
+/sites/*/node_modules
