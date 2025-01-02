@@ -1,0 +1,21 @@
+Versiones
+PHP 8.0.11
+Composer 2.1.9
+React 19.0.0
+
+CONSIDERACIONES:
+1. Debido a la rapidez de desarollo no se tuvo en cuenta el uso de variables de entorno para hacer
+referencia a la apiUrl de los servicios en el site "gestion-cursos"
+
+
+Instrucciones para iniciar el site "gestion cursos"
+1. Posarse en la ruta donde se encuentra el site ./sites/gestion-cursos o hacer cd ./sites/gestion-cursos
+2. Descargar las dependencias (generando el archivo node_modules) usando el comando "npm install"
+3. Inicializar el servidor de pruebas haciendo uso del comando "npm run start"
+
+Instrucciones para iniciar el proyecto web-service 
+1. Posarse en la ruta donde se encuentra el site ./web-services o hacer cd ./web-services
+2. Descargar las dependencias usando el comando "composer install"
+3. Asegurarse de tener ubicado el proyecto en la ruta correspondiente al servidor de preferencia
+RECOMENDADO: En caso no tener un servidor de preferencia y contar con php en el scope global utilizar el comando "php -S localhost:8000" 
+
